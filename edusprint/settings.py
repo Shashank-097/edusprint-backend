@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'edusprint.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'edusprint_db',      
-        'PASSWORD': '12341234',  
-        'USER': 'root',                
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'rLYSdbgypBgHKTKqTLyVbBbVuotAYNws',
+        'HOST': 'ballast.proxy.rlwy.net',
+        'PORT': '39125',
     }
 }
 
